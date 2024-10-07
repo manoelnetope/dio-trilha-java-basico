@@ -1,8 +1,13 @@
 public class operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "Linguagem" + " Java";
         
-        System.out.println(nomeCompleto);
+        boolean variavel = true;
+
+        variavel = !variavel;
+
+        System.out.println(variavel);
+    
+
      }
 
 }
